@@ -28,6 +28,9 @@
     width: 100%;
     height: auto;
 }
+h1, h2, h3, h4 {
+  color: var(#3772FF);
+}
 
 h1 {
   position: absolute;
@@ -38,7 +41,25 @@ article {
     background-color: #98B9F2;
     opacity: 1;
 }
+nav {
+  background-color: var(#3772FF);
+}
 
 img {
   float: right;
+}
+nav a {
+  color: var(#98B9F2);
+}
+
+nav a:link, nav a:visited {
+  color: var(#98B9F2);
+}
+
+nav a:hover {
+  color: var(#F7FF58);
+}
+
+nav a:hover {
+  background-color: var(#A1FCDF);
 }
