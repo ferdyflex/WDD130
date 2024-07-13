@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+:root {
+    --primary-color: #3772FF;
+    --secondary-color: #98B9F2;
+    --accent1-color: #F7FF58;
+    --accent2-color: #A1FCDF;
+
+    --heading: 'Open Sans' , serif;
+    --paragraph: 'Roboto' , serif;
+    --heading-font-color: #3772FF;
+    --paragraph-font-color: #98B9F2;
+
+    text-decoration: none;
+    max-width: 500px;
+    margin: auto;  
+ }
+ 
+ .hero {
+    position: relative;
+    border: 1px solid steelblue;
+    width: 100px;
+    height: auto;
+     
+  }
+  
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+  position: absolute;
+}
+
+article {
+    position: absolute;
+    background-color: #98B9F2;
+    opacity: 1;
+}
+
+img {
+  float: right;
+
+
+}
